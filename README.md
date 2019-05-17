@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository accompanies the *Multi-disease segmentation of glioblastoma and white matter hyperintensities in BraTS 2018* paper submitted to Frontiers in Computational Neuroscience.
+This repository accompanies the paper entitled *Multi-disease segmentation of glioblastoma and white matter hyperintensities in BraTS 2018*, submitted to Frontiers in Computational Neuroscience.
 
 It is primarily intended for code peer review rather than general consumption.
 
@@ -38,10 +38,10 @@ At the very least, paths will need to be updated for your local environment.
 
 | Filename                                                             | Mode      | Dataset     | Comments                                       |
 | -                                                                    | -         | -           | -                                              |
-| [**`training_all.ipynb`**](training_all.ipynb)                       | Training  | Training    | Main parent notebook                           |
+| [**`training_all.ipynb`**](training_all.ipynb)                       | Training  | Training    | **Main parent notebook**                       |
 | [`training_all_svid5.ipynb`](training_all_svid5.ipynb)               | Training  | Training    | Modified for 5 class prediction including SVID |
-| [`training_cv.ipynb`](training_all.ipynb)                            | Training  | Training CV |                                                |
-| [`training_cv_svid5.ipynb`](training_all.ipynb)                      | Training  | Training CV | Modified for 5 class prediction including SVID |
+| [`training_cv.ipynb`](training_cv.ipynb)                             | Training  | Training CV |                                                |
+| [`training_cv_svid5.ipynb`](training_cv_svid5.ipynb)                 | Training  | Training CV | Modified for 5 class prediction including SVID |
 | [`predict_val.ipynb`](predict_val.ipynb)                             | Inference | Validation  |                                                |
 | [`predict_val_svid5.ipynb`](predict_val_svid5.ipynb)                 | Inference | Validation  | Modified for 5 class prediction including SVID |
 | [`predict_training_cv.ipynb`](predict_training_cv.ipynb)             | Inference | Training CV |                                                |
